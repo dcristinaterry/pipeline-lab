@@ -13,6 +13,6 @@ jobs:
           python-version: '3.12'
 
       - run: pip install pytest # step 3: install pytest
-      - run: pytest # step 4: run the tests
+      - run: pytest -v # step 4: run the tests
   # one failing test fails this step,
   # which turns the whole run red.
